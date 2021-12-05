@@ -379,7 +379,7 @@ class gibMacOS:
             self.u.custom_quit()
         # At this point - we should have something in 10.xx format
         parts = menu.split(".")
-        if len(parts) > 2 or len(parts) < 2 or parts[0] != "10":
+        if len(parts) > 2 or len(parts) :
             self.pick_macos()
             return
         # Got the right format
